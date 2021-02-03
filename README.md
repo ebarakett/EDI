@@ -1,2 +1,2 @@
 # EDI
-E+D work!!
+E+D work!! https://ebarakett.github.io/EDI/
