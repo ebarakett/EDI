@@ -1,5 +1,5 @@
 function setup() {
-    createCanvas(windowWidth, windowWidth);
+    createCanvas(windowWidth, windowHeight);
     noFill();
     noStroke();
     frameRate(3);
