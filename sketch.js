@@ -1,5 +1,5 @@
 function setup() {
-    createCanvas(windowWidth, windowHeight);
+    createCanvas(windowWidth, 2 * windowWidth);
     noFill();
     noStroke();
     frameRate(3);
@@ -18,8 +18,8 @@ function draw() {
 
     var sideLen = (windowWidth - 2 * windowPane) / num //length of individual side of a box
 
-    for (var x = 0; x < num * sideLen; x = x + sideLen) {
-        for (var y = 0; y < num * sideLen; y = y + sideLen) {
+    for (var x = 0; x < windowWidth; x = x + sideLen) {
+        for (var y = 0; y < 2 * windowWidth; y = y + sideLen) {
 
             fill(0, random(170, 255), random(170, 255));
 
